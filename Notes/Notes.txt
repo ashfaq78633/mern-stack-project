@@ -1,3 +1,65 @@
+HTML
+header 
+footer
+aside
+video
+bold
+time
+source
+
+ CSS
+
+tailmenn css
+1. js can be used as client side and service side
+2. one of the powerfull programing language equivalent to c, c++, python
+3. static/ dynamic
+ static is not interactive dynamic in interactive
+
+
+why console ? what is the importance  
+
+script will work inside or outside the body
+
+two example programs for 
+1. simple if
+2. if else 
+3.else if 
+4. else if ladder
+5. nested if 
+
+
+
+case 1. no of lemons in hand : 7 
+expected output : god 1 offered 7 lemons
+go 2  need 7 
+god 3 : need 7
+shortage 14
+
+cas2:
+no of lemons in hand 
+ god1L 7 offered
+god2: 7 offered
+god 3: 7 offered 
+sufficient 
+
+case 3:
+no of lemons in hand 15
+ god1 ; 7 offered
+god2 ; 7 offered
+god3 ; having 1 need 6
+shortage : 6
+
+case 4 
+no.of lemons : 67
+god1 : 7 offered
+god2: 7 offered
+god 3 : 7 offered// 
+
+sam is having 75 candys he gives half of it to his friend angel since angel loves sam alot she gives back  half of it portion, calculate and display individually how many candys are sam and agel are having , use only one variable , use functions without argument or without return value // give the code for html and give the correct code only
+
+
+
+
 1. create a folder called react in the desktop
 2.we opened a command prompt double click the folder go on top adreess bar and remove that and type cmd and enter then cmd will open
 3.check the version  (node -v)
