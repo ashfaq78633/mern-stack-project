@@ -1,61 +1,147 @@
-HTML
-header 
-footer
-aside
-video
-bold
-time
-source
+1. create a folder called react in the desktop
+2.we opened a command prompt double click the folder go on top adreess bar and remove that and type cmd and enter then cmd will open
+3.check the version  (node -v)
+4.npm -v 9 check verion of npm
+5.creating react app based on the command: npmx create-react-app demo
+6.npm start
+7.to make it work :
+    1.open ur react and check demo file was created or not?
+     2.go to cmd prompt  and 
 
- CSS
+1. index.html, 2. index.js, 3. index.cs
+initially do or write your code app.js
+unlike html here once dom gets created the changes or manipulation what we do gets completed and only that part will be rerendered
+ whereas in html everytime we make change entire dom will be rerendered
 
-tailmenn css
+in the web application created by react js each and everything is called as components 
+types of components : 1. functional component 2. class component 
+
+JSX - html inside javascript
+
+day 4:
+every component will have props and states:;
+1.props : it wont change ex: name, tata bislery brand            2.states: it changes or re can change it ex: water level in bottle .....initial state full after drank the water it become l
+                                                                      low , updated state half and current state empty.
+ 
+flipkart website:
+component name: mobiles, props : name, version , price
+
+earlier in it industry they were using class components reason being state concept wass not available with functional component
+hooks is used to implement state in functional components; 
+types of hooks 
+1. use State
+2. use Effect
+3. use Ref
+4. use Context
+5. use Reduce
+ example of hook state : counter clock , stating the initial state aas zero we can implemented decremented reseted using use state hook.
+
+day 5:
+combine two array with using hook and without hook
+spread operator: passing array into use state
 
 
+day6:
+use effect-1
+upon the condition or action we applied in our functional components monitoring the impact or side effects can be done using use effect hook 
+use effects acpt two argumments 1. call back function , 2. dependency arry[]
+note: call back function is like constructor in java
 
-1. js can be used as client side and service side
-2. one of the powerfull programing language equivalent to c, c++, python
-3. static/ dynamic
- static is not interactive dynamic in interactive
+day 9:
+use effect: ?
+usereducer: same as usestate to manage or update states that is data that is values of components. difference is if u have more states or complex things u use usereducerr hook.
+step1: create increment decre program using usestate
+step2: replace usestate with use reducer
+note:  point 1: usereducer takes 2 arguments first is reducerfunction which syas what u want to do (like inc or dec), second is initial value of state
+
+point2: usereducer return s array with two values like usestate
+first is that initial count and second is dispatch function we call them as stae and dispatch 
+
+here state will hold initial value   and updated once u called dispatch function , and dispatch will trigger use reducer function
+
+redux:
+
+function jsobdisplay(){
+var obj ={
+number:100
+name: "Abishek"
+}
+return {
+<div>
+<h1>{obj.number}</h1>	
+<h1>{obj.name}</h1>
+</div>
+)}
+
+geta pass from the user as a input if the pass is correct display the component login granted , if the pass is incorrect display the access denied component.a
+
+day10:
+redux:        Redux is a state management library that helps manage and centralize application state in a predictable way. It uses a unidirectional data flow, making it easier to debug and maintain applications
+
+router
+routes
+route
+path
+route
+routes
+router
+
+step1: create this using routing  , home users about contact
+useSelector hook - To Access data from redux
+explanaton: state is reducer userfinfo from store users from slice 
+
+day10:
+
+day11:
+compass:
+compass helps to fetch data from mongo db from mongo dv server means compass helps u to reach mongo db.. like its client 
+
+Mongodb:
+create records in computers collection with modelName, brandName, releaseYear, warranty, price
+fileter all the records wwith the price range 30000 to 50000 range and go with the asus
+
+dbproducts.find({$and:[{price:{$gt:800000}},{brand:'Apple'}]})
+db.customers.find({$and:[hobbies:{$exists:false}}},{age:{$gt:40}}]})
+db.companies.aggregate([{$lookup:{from: 'employees',localField:'-
+
+create a database bank , create two collection under then , first collection name is customer personal, second collection name is customer account , name string,address array, phone NO object
+with two numbers and names is one and two , age 
+second collection data model and schema... acc number(int), branch ( string, bank name (string , ifsccode(string), current balance , accc type, over draft but overdraft should be yes or no  this is condition
+1. where only the od is yes
+2. Display only the customers add, where the brands names are same
+3.current balance 10,000 to 20,000 
+4.filter only the saving acc people details
+5.
+
+nodejs:
+node is a backend library frim js
+in Node, we can use express js as middleware.
+const http= require('http');
+const express = require('express');
+const sayHello = require(./greet');
+
+nodejs:
+its a popular js library or we call it as runtime environment which allows us to run the javascript at the service time 
+noe: maintain split terminals in vs code(2) inorder to use client and server 
+1. runcommand : start the server first command: node server.js
+2.command to runclient : npm start
+terminal : npm i express
+
+we can delete package.json and also to get it back the command is npm init -y
+AxIOS:
+   its a popular js library used to make http request from the browser or nodejs
+asios is known for easy and clean syntax also flexibility. especially work well with api and rest api
+when we write an apo i for an exclusive purpose we call it as rest api
+
+CORS: Cross Origin Resource Sharing 
+when a web page request information froma  resource (from anyu other sites ), whether to acpt the request and process it or not , will be defined be in the rule book for this purpose we use cors.
+
+commands to install npm i axios 
+npm i cros
+
+note: so 
 
 
-why console ? what is the importance  
+next day: User.js one file, second file update.js tird 
+model,name, age, email .... one button as add user ... after click the button it should be store in mongoDb  
 
-script will work inside or outside the body
-
-two example programs for 
-1. simple if
-2. if else 
-3.else if 
-4. else if ladder
-5. nested if 
-
-
-
-case 1. no of lemons in hand : 7 
-expected output : god 1 offered 7 lemons
-go 2  need 7 
-god 3 : need 7
-shortage 14
-
-cas2:
-no of lemons in hand 
- god1L 7 offered
-god2: 7 offered
-god 3: 7 offered 
-sufficient 
-
-case 3:
-no of lemons in hand 15
- god1 ; 7 offered
-god2 ; 7 offered
-god3 ; having 1 need 6
-shortage : 6
-
-case 4 
-no.of lemons : 67
-god1 : 7 offered
-god2: 7 offered
-god 3 : 7 offered// 
-
-sam is having 75 candys he gives half of it to his friend angel since angel loves sam alot she gives back  half of it portion, calculate and display individually how many candys are sam and agel are having , use only one variable , use functions without argument or without return value // give the code for html and give the correct code only
